@@ -1,0 +1,10 @@
+Konsoldan girilen sayı ve sayının tersini kendisiyle toplanır. Bu çıkan sayo polindromik ise sayıyı asal çarpanlarına ayrılır değilse polindromik olana kadar devam ettirilir. Asal çarpanlarının toplamı asal sayı ise doğru değilse çarpanlarının toplamında oluşan sayının rakamları toplanır ve bu işlem asal olana kadar devam eder. En son işlemde asal sayı olursa Brahim sayısıdır değilse Brahim sayısı değildir yazdırdım.
+Örnek:
+173+371=544 (polindromik değil, devam)
+544+445=989(polindromik, asal çarpanlarına ayır)
+989 'un asal çarpanları=23 ve 43'tür.(Şimdi ikisini toplayalım)
+23+43=66(asal değil, rakamlarını toplayalım)
+6+6=12(asal değil,rakamlarını toplayalım)
+1+2=3(asaldır, bu yüzden Brahim asal sayısıdır)
+
+NOT:Bazı sayılarda tersinin toplamı polindromik olmayabilir. bu yüzden soruyu çözerken programın sonsuz döngüye girmemesi için en fazla 20 kere tersiyle toplamasına müsade ettim.
